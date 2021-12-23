@@ -1,0 +1,19 @@
+{% extends "todo/base.html" %}
+
+{% block content %}
+<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<div class="row justify-content-center mt-5">
+        <div class="col-md-7 text-center">
+
+                 <h1>Simply Your Todos. Woo!</h1>
+            <p>Жизнь веселая. Но жизнь тоже занята. Вы можете делать миллион разных вещей. Но что важно <u>что</u> ты делаешь. Мы создали <b><i>Todo Woo</i></b> чтобы помочь вам осмыслить все свои возможности и жить той жизнью, которая для вас важнее всего. Вас ждет новая организованная жизнь.</p>
+        <a role="button" class="btn btn-primary btn-lg" href="{% url 'currenttodos' %}">Начать</a>
+        </div>
+    </div>
+
+{% endblock %}
